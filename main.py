@@ -11,7 +11,7 @@ from sklearn.metrics import confusion_matrix
 st.set_option('deprecation.showPyplotGlobalUse', False)
 
 # Load data
-data = pd.read_csv("/Users/amadoudiakhadiop/Downloads/Financial_inclusion_dataset.csv")
+data = pd.read_csv("Financial_inclusion_dataset.csv")
 
 # Encode categorical features
 label_encoder = LabelEncoder()
